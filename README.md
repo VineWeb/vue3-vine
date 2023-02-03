@@ -1,0 +1,5 @@
+## Vue 3 + TypeScript + Vite
+#### 初始化项目
+```script
+yarn create vite vue-vine --template vue-ts
+```
