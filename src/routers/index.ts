@@ -5,8 +5,8 @@ const routes: Array<RouteRecordRaw> = [
         path: '/', 
         component: () => import("@/components/base/layout.vue"), 
         children: [
-          	{ path: '', component: () => import('pages/home.vue') },
-          	{ path: 'sports', component: () => import('pages/sports.vue') },
+          	{ path: '', component: () => import('pages/home/index.vue') },
+          	{ path: 'sports', component: () => import('pages/sports/index.vue') },
         ]
     }
 ]

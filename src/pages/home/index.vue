@@ -174,7 +174,6 @@ async function initChart() {
   }
   option && myChart.setOption(option);
 }
-
 onMounted(() => {
   initChart();
 });
